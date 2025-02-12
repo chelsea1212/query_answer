@@ -11,7 +11,7 @@ import logging
 
 # Set up logging
 logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(_name_)
+logger = logging.getLogger(__name__)
 
 
 def download_from_gdrive(gdrive_url: str, output_path: str) -> bool:
