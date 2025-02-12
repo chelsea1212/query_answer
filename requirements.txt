@@ -1,0 +1,8 @@
+pandas
+numpy
+streamlit
+openai
+rank_bm25
+sentence-transformers
+typing-extensions
+logging
