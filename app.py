@@ -32,7 +32,7 @@ def download_csv():
     return csv_path
 
 class EmailSearchEngine:
-    def _init_(self, csv_path: str, api_key: str):
+    def __init__(self, csv_path: str, api_key: str):
         """
         Initialize the email search engine.
         
